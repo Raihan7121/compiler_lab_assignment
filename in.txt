@@ -1,0 +1,13 @@
+/* This is a multiline 
+comment */
+
+vari x = 10;
+// single line comment
+vari y = 3.14;
+family myMethod() {
+    fi (x > y) {
+        view "x is greater than y";
+    } fie {
+        view "x is not greater than y";
+    }
+}

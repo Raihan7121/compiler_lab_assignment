@@ -1,0 +1,42 @@
+Multiline Comment           -> /* This is a multiline 
+comment */
+FLOAT       -> vari
+ID          -> x
+OPERATOR    -> =
+INT         -> 10
+END OF STATEMENT -> ;
+Single Line Comment         -> // single line comment
+FLOAT       -> vari
+ID          -> y
+OPERATOR    -> =
+FLOAT       -> 3.14
+END OF STATEMENT -> ;
+METHOD      -> family
+ID          -> myMethod
+DELIMITER   -> (
+DELIMITER   -> )
+DELIMITER   -> {
+CONDITION   -> fi
+DELIMITER   -> (
+ID          -> x
+OPERATOR    -> >
+ID          -> y
+DELIMITER   -> )
+DELIMITER   -> {
+PRINT     -> view
+STRING      -> "x is greater than y"
+END OF STATEMENT -> ;
+DELIMITER   -> }
+ELSE        -> fie
+DELIMITER   -> {
+PRINT     -> view
+STRING      -> "x is not greater than y"
+END OF STATEMENT -> ;
+DELIMITER   -> }
+DELIMITER   -> }
+
+--- Statistics ---
+Keywords matched: 5
+Operators: 3
+Datatypes: 6
+Identifiers: 5

@@ -1,0 +1,4 @@
+flex zsharpLex.l ; gcc lex.yy.c -o zs ; ./zs sample.zs
+
+flex .\zsharpLexCount.l ; gcc lex.yy.c -o zsl ; ./zsl sample.zs
+
